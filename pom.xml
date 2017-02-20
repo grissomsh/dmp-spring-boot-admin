@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.daocloud.microservice.admin</groupId>
-	<artifactId>system-admin-service</artifactId>
+	<artifactId>spring-boot-admin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>system-admin-service</name>
-	<description>system-admin-service</description>
+	<name>spring-boot-admin</name>
+	<description>spring-boot-admin</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
