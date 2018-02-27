@@ -19,4 +19,4 @@ EXPOSE 8888
 
 EXPOSE 8889
 
-ENTRYPOINT [ "sh", "-c", "java -jar app.jar" ]
+ENTRYPOINT [ "sh", "-c", "java -jar -DEUREKA_URL=http://106.75.209.247:9992/eureka/ app.jar" ]
