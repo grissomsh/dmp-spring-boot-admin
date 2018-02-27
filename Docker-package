@@ -1,0 +1,9 @@
+FROM grissomsh/maven:latest
+
+LABEL maintainer="grissom.wang@daocloud.io"
+
+WORKDIR /project
+ADD . /project
+
+RUN mvn install -Dmaven.test.skip=true
+CMD ["mvn"]
